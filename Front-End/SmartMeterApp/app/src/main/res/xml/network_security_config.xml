@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext for your local development server -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Replace with your PC’s LAN IP -->
+        <domain includeSubdomains="true">192.168.1.10</domain>
+    </domain-config>
+
+    <!-- (Optional) Allow cleartext globally during development -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
