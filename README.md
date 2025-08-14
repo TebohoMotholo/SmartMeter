@@ -86,53 +86,30 @@ This opens two terminals:
 
 ## Project Structure
 
-
+```text
 SmartMeterApp/
-
 ├─ server.py
-
 ├─ simulated_meter.py
-
 ├─ run_all.bat (Windows)
-
 ├─ run_all.sh (macOS/Linux)
-
 └─ app/
-
 ├─ src/main/
-
 │ ├─ java/com/example/smartmeterapp/
-
 │ │ ├─ MainActivity.java
-
 │ │ ├─ HomeFragment.java
-
 │ │ ├─ TopUpFragment.java
-
 │ │ ├─ HistoryFragment.java
-
 │ │ ├─ AppliancesFragment.java
-
 │ │ └─ MeterData.java
-
 │ └─ res/
-
 │ ├─ layout/
-
 │ │ ├─ activity_main.xml
-
 │ │ ├─ fragment_home.xml
-
 │ │ ├─ fragment_topup.xml
-
 │ │ ├─ fragment_history.xml
-
 │ │ └─ fragment_appliances.xml
-
 │ ├─ menu/bottom_nav_menu.xml
-
 │ ├─ navigation/mobile_navigation.xml
-
 │ └─ xml/network_security_config.xml
 
 
